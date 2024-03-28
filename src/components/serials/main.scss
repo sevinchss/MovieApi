@@ -1,0 +1,21 @@
+.serials{
+    h3{
+        font-size: 24px;
+        color: white;
+        display: flex;
+        justify-content: end;
+        margin-bottom: 20px;
+    }
+    .movies{
+        gap: 20px;
+        display: flex;
+        justify-content: space-between;
+        overflow: scroll;
+        &::-webkit-scrollbar{
+            display: none;
+        }
+    }
+    .MovieCard{
+        display: flex
+    }
+}

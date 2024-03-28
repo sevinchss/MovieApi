@@ -1,0 +1,40 @@
+.movie-card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  h2 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.2rem;
+    color: white;
+    text-align: inherit;
+    cursor: pointer;
+    &:hover  {
+        color:#CCCCCD;
+    }
+  }
+  p {
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: #CCCCCD;
+    text-align: inherit;
+    cursor: pointer;
+    &:hover  {
+        color:white;
+    }
+}
+  img {
+    border-radius: 4px;
+    height: 300px;
+    margin-top: 10px;
+    object-fit: cover;
+    padding: 10px;
+    cursor: pointer;
+    transition: .3s;
+    width: 300px;
+    &:hover  {
+        transform: scale(1.1);
+        transition-duration: 300ms;
+    }
+  }
+}
